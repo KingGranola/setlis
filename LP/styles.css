@@ -504,6 +504,47 @@ p {
   line-height: 1.55;
 }
 
+.qa-section {
+  padding: 0 14px 30px;
+  text-align: center;
+}
+
+.qa-section h2 {
+  color: var(--blue);
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.qa-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.qa-item {
+  border: 1px solid #e6f3fa;
+  border-radius: 10px;
+  background: var(--paper);
+  padding: 13px 14px;
+}
+
+.qa-item h3 {
+  color: var(--blue-dark);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.qa-item p {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.7;
+}
+
 .download-section .app-store-link img {
   width: 118px;
 }
