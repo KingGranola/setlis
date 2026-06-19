@@ -3,20 +3,57 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Setris | ライブの予定・リハ・セトリから予約の管理まで</title>
+    <title>Setris | バンドのセットリスト・ライブ管理アプリ</title>
     <meta
       name="description"
-      content="ライブ出演者向けライブ予定管理アプリ Setris。ライブ予定、リハ、セトリ、予約、バンド管理、レポートをひとつにまとめます。"
+      content="バンドのセットリスト管理、ライブ予定管理、リハ、予約、楽曲、会場、レポートをひとつにまとめるライブ出演者向けアプリ Setris。ライブのセトリ作成やバンド管理をスムーズにします。"
     />
-    <meta property="og:title" content="Setris | Live Schedule Manager" />
+    <meta property="og:title" content="Setris | バンドのセットリスト・ライブ管理アプリ" />
     <meta
       property="og:description"
-      content="ライブの予定・リハ・セトリから予約の管理まで。"
+      content="バンドのセットリスト管理、ライブ予定管理、ライブのセトリ作成、予約管理までひとつに。"
     />
-    <meta property="og:image" content="./app_icon.png" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://kinggranola.github.io/setlis/LP/" />
+    <link rel="alternate" hreflang="ja" href="https://kinggranola.github.io/setlis/LP/" />
+    <link rel="alternate" hreflang="en" href="https://kinggranola.github.io/setlis/LP/index-en.html" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://kinggranola.github.io/setlis/LP/index-zh-cn.html" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://kinggranola.github.io/setlis/LP/index-zh-tw.html" />
+    <link rel="alternate" hreflang="ko" href="https://kinggranola.github.io/setlis/LP/index-ko.html" />
+    <link rel="alternate" hreflang="x-default" href="https://kinggranola.github.io/setlis/LP/index-en.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kinggranola.github.io/setlis/LP/" />
+    <meta property="og:site_name" content="Setris" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:image" content="https://kinggranola.github.io/setlis/LP/app_icon.png" />
+    <meta property="og:image:alt" content="Setris app icon" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Setris | バンドのセットリスト・ライブ管理アプリ" />
+    <meta name="twitter:description" content="バンドのセットリスト管理、ライブ予定管理、リハ、予約、楽曲、会場、レポートをひとつにまとめるライブ出演者向けアプリです。" />
+    <meta name="twitter:image" content="https://kinggranola.github.io/setlis/LP/app_icon.png" />
+    <meta name="application-name" content="Setris" />
+    <meta name="apple-itunes-app" content="app-id=6774095003" />
     <meta name="theme-color" content="#2aa6dc" />
     <link rel="icon" href="./app_icon.png" />
     <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Setris",
+        "applicationCategory": "MusicApplication",
+        "operatingSystem": "iOS 18 or later",
+        "description": "バンドのセットリスト管理、ライブ予定管理、ライブのセトリ作成、リハ、予約、楽曲、会場、レポートをひとつにまとめるライブ出演者向けアプリです。",
+        "url": "https://kinggranola.github.io/setlis/LP/",
+        "image": "https://kinggranola.github.io/setlis/LP/app_icon.png",
+        "downloadUrl": "https://apps.apple.com/jp/app/setly-live-schedule-manager/id6774095003",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "JPY"
+        }
+      }
+    </script>
     <script>
       (() => {
         if (window.location.search || window.location.hash) {
@@ -166,8 +203,8 @@
       <section class="news fade-in" aria-label="お知らせ">
         <h2>お知らせ</h2>
         <a href="#download"
-          ><time datetime="2026-06-18">2026.6.18</time
-          ><span>Ver.1.0.3リリースしました</span></a
+          ><time datetime="2026-06-19">2026.6.19</time
+          ><span>Ver.1.0.4リリースしました</span></a
         >
         <a href="#download"
           ><time datetime="2026-06-16">2026.6.16</time
@@ -182,6 +219,9 @@
       <section class="features-heading fade-in" id="features">
         <h2>Features</h2>
         <p>アプリの特徴</p>
+        <p class="seo-lead">
+          Setrisは、バンドのセットリスト管理、ライブ予定管理、ライブのセトリ作成をまとめて扱えるiPhoneアプリです。
+        </p>
       </section>
 
       <section class="feature-section fade-in">
@@ -437,6 +477,12 @@
         <h2>Update</h2>
         <p class="updates-lead">更新履歴</p>
         <div class="updates-list">
+          <article class="update-item">
+            <h3>v1.0.4</h3>
+            <ul>
+              <li>楽曲の並び替え表示をテキスト中心にし、狭い画面でも見切れにくくしました。</li>
+            </ul>
+          </article>
           <article class="update-item">
             <h3>v1.0.3</h3>
             <ul>

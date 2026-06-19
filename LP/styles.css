@@ -479,6 +479,15 @@ p {
   font-weight: 900;
 }
 
+.features-heading .seo-lead {
+  max-width: 360px;
+  margin: 10px auto 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.65;
+}
+
 .feature-section {
   padding: 0 14px 28px;
 }
